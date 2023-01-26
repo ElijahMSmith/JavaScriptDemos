@@ -1,0 +1,16 @@
+{
+	"name": "example-project",
+	"version": "1.0.0",
+	"description": "For a workshop",
+	"main": "dist/index.js",
+	"scripts": {
+		"start": "npm run build && node dist/index.js",
+		"build": "tsc"
+	},
+	"author": "Eli",
+	"license": "ISC",
+	"dependencies": {
+		"node-schedule": "^2.1.1",
+		"typescript": "^4.9.4"
+	}
+}
